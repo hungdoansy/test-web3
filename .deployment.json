@@ -1,0 +1,23 @@
+{
+  "address": "0x87AF7c9A4980EC414361203Ba3112b33DAa9F7Be",
+  "abi": [
+    {
+      "type": "function",
+      "name": "greet",
+      "constant": true,
+      "stateMutability": "pure",
+      "payable": false,
+      "inputs": [],
+      "outputs": [{ "type": "string" }]
+    },
+    {
+      "type": "function",
+      "name": "greetAgain",
+      "constant": true,
+      "stateMutability": "pure",
+      "payable": false,
+      "inputs": [{ "type": "string", "name": "gretting" }],
+      "outputs": [{ "type": "string" }]
+    }
+  ]
+}
